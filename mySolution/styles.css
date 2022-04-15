@@ -1,0 +1,48 @@
+.attribution { 
+    font-size: 11px;
+   text-align: center;
+   margin-top: 5px;
+   }
+  .attribution a { 
+    color: hsl(228, 45%, 44%);
+   }
+  body{
+    background-color: rgb(173,216,230);
+  }
+
+    #myDiv{
+    background-color: white;
+    height: 90%;
+    margin: auto;
+    margin-top: 22%;
+    padding: 10px;
+    border-radius: 5%;
+  }
+
+  img{
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 5%;
+  }
+
+  h3{
+   text-align: center;
+   font-size: 125%;
+   font-weight: bold;
+
+  }
+  p{
+    text-align: center;
+    opacity: .5;
+    padding-top: 5%;
+    font-size: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    h3{
+      font-size: 15px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
